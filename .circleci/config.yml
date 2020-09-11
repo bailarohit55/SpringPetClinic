@@ -1,5 +1,7 @@
 version: 2.1
-
+jobs:
+  build:
+    working_directory: ~/SpringPetClinic/SpringPetClinic
 orbs:
   maven: circleci/maven@0.0.12
 
